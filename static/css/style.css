@@ -1,0 +1,70 @@
+.page-header {
+border-bottom: 0px;
+}
+.navbar-top {
+background: rgba(0,0,0,.3);
+position: absolute;
+border: none;
+}
+.navbar-default .navbar-brand {
+color: #D3D3D3;
+}
+.navbar-default .navbar-text {
+color: #FFFDFD;
+}
+.subtitle {
+text-align: center;
+}
+.white {
+color: #fff;
+}
+.label-color {
+background-color: #12A684;
+}
+.homepage-header {
+padding-bottom: 9px;
+margin: 40px 0 20px;
+border-bottom: 1px solid #eee;
+}
+.job-list {
+margin-top: 60px;
+}
+.job-list .job-item-wrap {
+text-decoration: none;
+}
+.job-item {
+position: relative;
+padding: 30px;
+padding-top: 70px;
+padding-bottom: 20px;
+margin-bottom: 80px;
+border: 2px solid #efefef;
+margin-left: 30px;
+}
+.job-item .job-source {
+width: 100px;
+border: 3px solid #f1f2f7;
+position: absolute;
+top: -20px;
+margin-left: -60px;
+background-color: #fff;
+background-size: cover;
+background-position: center center;
+}
+.job-item .job-source img {
+padding: 3px;
+}
+.img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+display: block;
+max-width: 100%;
+height: auto;
+}
+img {
+vertical-align: middle;
+}
+.loc-middle {
+text-align: center;
+}
+.postinfo {
+margin-top: 50px;
+}
