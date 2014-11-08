@@ -1,14 +1,14 @@
 {% include "layout/top.html" %}
 <body>
-{% include "layout/header.html" %}
+{% include "layout/post-header.html" %}
 <div class="post-view-enterprise">
   <div class="container postinfo">
     <div class="row">
-<div class="main">
+<div class="main col-md-9">
 <div class="postdetail">
 <div class="title">
 <h1>{{ postinfolist[0] }}</h1>
-<p>{{ str(postinfolist[1]) }}</p>
+<h3>{{ str(postinfolist[1]) }}</h3>
 <span class="title-triangle"></span>
 </div>
 <div class="post-main" >
@@ -16,7 +16,7 @@
 </div>
 </div>
 </div>
-<div class="side">
+<div class="side col-md-3">
 	Side
 </div>
     </div>

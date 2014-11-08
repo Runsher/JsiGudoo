@@ -5,7 +5,7 @@ border-bottom: 0px;
 color: #777;
 padding: 30px 0;
 border-top: 1px solid #e5e5e5;
-margin-top: 70px;
+margin-top: 30px;
 }
 .navbar-top {
 background: rgba(0,0,0,.3);
@@ -14,6 +14,9 @@ border: none;
 }
 .navbar-default .navbar-brand {
 color: #D3D3D3;
+}
+.navbar-post {
+background: rgba(16, 148, 138, 0.96);
 }
 .navbar-default .navbar-text {
 color: #FFFDFD;
@@ -29,11 +32,11 @@ background-color: #12A684;
 }
 .homepage-header {
 padding-bottom: 9px;
-margin: 40px 0 20px;
+margin: 20px 0 10px;
 border-bottom: 1px solid #eee;
 }
 .post-list {
-margin-top: 60px;
+margin-top: 40px;
 }
 .post-list .post-item-wrap {
 text-decoration: none;
@@ -102,8 +105,10 @@ font-size: 12px;
 .postinfo {
 margin-top: 50px;
 }
-.container {
-width: 980px;
+@media (min-width: 1200px) {
+  .container {
+    width: 980px;
+  }
 }
 .navbar-fixed-top, .navbar-fixed-bottom {
 position: fixed;
@@ -118,7 +123,7 @@ margin-right: auto;
 margin-left: auto;
 }
 .post-view-enterprise .main {
-width: 678px;
+//width: 678px;
 float: left;
 }
 .post-view-enterprise .main .postdetail {
@@ -127,7 +132,7 @@ background: #fff;
 margin: 30px 0 20px 0;
 }
 .post-view-enterprise .main .postdetail .title {
-width: 665px;
+//width: 665px;
 height: 90px;
 background-color: #3d9ccc;
 position: relative;
@@ -136,7 +141,15 @@ top: 18px;
 padding-right: 10px;
 }
 .post-view-enterprise .main .postdetail .title h1 {
-font-size: 26px;
+font-size: 22px;
+padding-left: 36px;
+color: #fff;
+padding-top: 8px;
+}
+.post-view-enterprise .main .postdetail .title h3 {
+font-size: 12px;
+padding-left: 36px;
+color: #fff;
 padding-top: 8px;
 }
 
@@ -155,7 +168,7 @@ border-bottom: 1px dotted #ccc;
 position: relative;
 }
 .post-view-enterprise .side {
-width: 290px;
+//width: 290px;
 float: right;
 margin-top: 30px;
 }
