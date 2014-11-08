@@ -1,23 +1,29 @@
-<section class="newest-jobs container">
+<section class="newest-posts container">
   <div class="homepage-header">
     <h3>最新文章</h3>
   </div>
 </section>
-<section class="job-list">
+<section class="post-list">
   <div class="container">
     <div class="row">
 
 	{% for i,j,k,l in postlist %}
       <div class="col-sm-6 col-md-4">
-	<a href="/new/{{ escape(str(l)) }}" class="job-item-wrap" title="近期文章一" target="_blank" >
-          <div class="job-item">
-            <div class="job-source light-green">
+	<a href="/new/{{ escape(str(l)) }}" class="post-item-wrap" title="最新文章" target="_blank" >
+          <div class="post-item">
+            <div class="post-source light-green">
               <!--img class="img-responsive" src="http://gm0.lietou-static.com/user/pic_logo/big/1622/16210126.png?1415171902124"-->
-		<h4 class="loc-middle">原创</h4>
+		<h6 class="loc-middle">原创</h6>
             </div>
+		<div class="post-title">
 		<p><h4>{{ escape(i)}}</h4></p>
+		</div>
+		<div class="post-comments">
 		<p>{{ escape(j) }}</p>
+		</div>
+		<div class="post-meta">
 		<p>{{ escape(str(k)) }}</p>
+		</div>
           </div>
         </a>
       </div>

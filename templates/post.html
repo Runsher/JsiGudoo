@@ -1,11 +1,26 @@
 {% include "layout/top.html" %}
 <body>
 {% include "layout/header.html" %}
+<div class="post-view-enterprise">
   <div class="container postinfo">
     <div class="row">
-<p><h3>{{ postinfolist[0] }}</h3></p>
+<div class="main">
+<div class="postdetail">
+<div class="title">
+<h1>{{ postinfolist[0] }}</h1>
 <p>{{ str(postinfolist[1]) }}</p>
-<p>{% raw postinfolist[2] %}</p>
+<span class="title-triangle"></span>
+</div>
+<div class="post-main" >
+<h3>{% raw postinfolist[2] %}</h3>
+</div>
+</div>
+</div>
+<div class="side">
+	Side
+</div>
     </div>
   </div>
+</div>
 </body>
+{% include "layout/footer.html" %}
