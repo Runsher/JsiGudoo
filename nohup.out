@@ -8997,3 +8997,69 @@ IndentationError: expected an indented block
 [I 141109 16:47:46 web:1811] 304 GET /new/545c87e2d8aadf51e38da3e2 (10.10.65.73) 12.58ms
 [I 141109 16:47:46 web:1811] 304 GET /static/css/style.css?v=fd2513b4bace994ee48fad547d12cc47 (10.10.65.73) 1.81ms
 [I 141109 16:47:46 web:1811] 304 GET /static/img/erweima.png?v=d5926069ad5665494e2abdb5ad50ec03 (10.10.65.73) 1.39ms
+[I 141110 15:25:23 web:1811] 200 GET / (10.10.65.73) 26.54ms
+[I 141110 15:25:23 web:1811] 200 GET /static/css/style.css?v=fd2513b4bace994ee48fad547d12cc47 (10.10.65.73) 1.97ms
+[I 141110 15:28:52 web:1811] 200 GET /new/545c8704d8aadf51e38da3e0 (10.10.65.73) 10.77ms
+[I 141110 15:28:52 web:1811] 200 GET /static/img/erweima.png?v=d5926069ad5665494e2abdb5ad50ec03 (10.10.65.73) 1.75ms
+[I 141110 15:28:56 web:1811] 200 GET /new/545c87a8d8aadf51e38da3e1 (10.10.65.73) 12.26ms
+[I 141110 15:29:11 web:1811] 200 GET /new/545c87e2d8aadf51e38da3e2 (10.10.65.73) 13.08ms
+[I 141110 15:30:34 web:1811] 304 GET /new/545c8704d8aadf51e38da3e0 (10.10.65.73) 10.48ms
+[I 141110 15:32:07 web:1811] 304 GET /new/545c87a8d8aadf51e38da3e1 (10.10.65.73) 11.04ms
+[I 141110 15:32:55 web:1811] 304 GET /new/545c87a8d8aadf51e38da3e1 (10.10.65.73) 11.92ms
+[I 141110 15:36:41 web:1811] 304 GET /new/545c87a8d8aadf51e38da3e1 (10.10.65.73) 11.31ms
+[I 141110 15:36:49 web:1811] 304 GET /new/545c87e2d8aadf51e38da3e2 (10.10.65.73) 10.85ms
+[I 141110 15:39:43 web:1811] 304 GET /new/545c87a8d8aadf51e38da3e1 (10.10.65.73) 12.82ms
+[I 141110 17:05:09 web:1811] 304 GET /new/545c87a8d8aadf51e38da3e1 (10.10.65.73) 12.16ms
+[I 141110 17:05:58 web:1811] 304 GET /new/545c87a8d8aadf51e38da3e1 (10.10.65.73) 10.88ms
+[I 141110 20:46:35 web:1811] 200 GET /new/545c8704d8aadf51e38da3e0 (10.10.65.73) 10.55ms
+[I 141110 20:46:41 web:1811] 304 GET / (10.10.65.73) 27.64ms
+[I 141110 20:46:45 web:1811] 304 GET / (10.10.65.73) 25.77ms
+[W 141110 20:46:54 web:1811] 404 GET /www.post.heshui.la (10.10.65.73) 2.57ms
+[I 141112 09:57:29 web:1811] 200 GET /new/545c8704d8aadf51e38da3e0 (10.10.65.73) 11.32ms
+[I 141112 10:21:00 web:1811] 200 GET /new/545c87e2d8aadf51e38da3e2 (10.10.65.73) 12.05ms
+[W 141112 10:21:01 web:1811] 404 GET /favicon.ico (10.10.65.73) 3.65ms
+[I 141112 10:21:39 web:1811] 200 GET /new/545c8704d8aadf51e38da3e0 (10.10.65.73) 11.00ms
+[I 141112 10:21:44 web:1811] 304 GET /new/545c87a8d8aadf51e38da3e1 (10.10.65.73) 10.94ms
+[I 141112 15:45:28 web:1811] 200 GET / (10.10.65.73) 27.78ms
+[I 141112 15:45:28 web:1811] 304 GET /static/css/style.css?v=fd2513b4bace994ee48fad547d12cc47 (10.10.65.73) 1.56ms
+[I 141112 15:45:28 web:1811] 304 GET /static/img/bkimg.jpg?v=013ea17b3f44e5b318771c9b6107d51f (10.10.65.73) 1.91ms
+[I 141112 21:52:18 web:1811] 200 GET / (10.10.65.73) 26.16ms
+[I 141112 21:52:19 web:1811] 200 GET /static/css/style.css?v=508100dd9e83179b5f8e54d6345bacce (10.10.65.73) 1.95ms
+[I 141112 21:52:19 web:1811] 304 GET /static/img/bkimg.jpg?v=013ea17b3f44e5b318771c9b6107d51f (10.10.65.73) 1.64ms
+[I 141112 22:01:47 autoreload:191] /ROOT/server/JsiGudoo/controllers/Home.py modified; restarting server
+[E 141112 22:01:49 web:1407] Uncaught exception GET / (10.10.65.73)
+    HTTPServerRequest(protocol='http', host='10.10.65.68:8825', method='GET', uri='/', version='HTTP/1.1', remote_ip='10.10.65.73', headers={'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '10.10.65.68:8825', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36', 'Connection': 'keep-alive', 'Cookie': 'user="2|1:0|10:1415369506|4:user|8:YWRtaW4=|630d22c555bb4c2218d74ef7de39040d780f8c02947ae2074ebb609b2b726b4d"', 'Cache-Control': 'max-age=0', 'If-None-Match': '"a4cba5e2a562ab4650d1067ec0e2d1c572375323"'})
+    Traceback (most recent call last):
+      File "/usr/lib64/python2.6/site-packages/tornado/web.py", line 1332, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/ROOT/server/JsiGudoo/controllers/Home.py", line 39, in get
+        postinfo = [post["title"],post["shortcut"],post["createDate"][0:9],post["_id"]]
+    TypeError: 'datetime.datetime' object is unsubscriptable
+[E 141112 22:01:49 web:1811] 500 GET / (10.10.65.73) 12.08ms
+[I 141112 22:02:14 autoreload:191] /ROOT/server/JsiGudoo/controllers/Home.py modified; restarting server
+Traceback (most recent call last):
+  File "application.py", line 10, in <module>
+    import Home
+  File "/ROOT/server/JsiGudoo/controllers/Home.py", line 39
+    postinfo = [post["title"],post["shortcut"],post["createDate"]],post["_id"]]
+                                                                              ^
+SyntaxError: invalid syntax
+[I 141112 22:04:05 web:1811] 200 GET / (10.10.65.73) 40.60ms
+[I 141112 22:04:05 web:1811] 304 GET /static/css/style.css?v=508100dd9e83179b5f8e54d6345bacce (10.10.65.73) 2.98ms
+[I 141112 22:04:05 web:1811] 304 GET /static/img/bkimg.jpg?v=013ea17b3f44e5b318771c9b6107d51f (10.10.65.73) 2.07ms
+[I 141112 22:05:09 web:1811] 200 GET /new/545c87e2d8aadf51e38da3e2 (10.10.65.73) 11.76ms
+[I 141112 22:05:45 web:1811] 200 GET /new/545c87e2d8aadf51e38da3e2 (10.10.65.73) 11.99ms
+[I 141112 22:05:45 web:1811] 304 GET /static/css/style.css?v=508100dd9e83179b5f8e54d6345bacce (10.10.65.73) 1.49ms
+[I 141112 22:05:45 web:1811] 304 GET /static/img/erweima.png?v=d5926069ad5665494e2abdb5ad50ec03 (10.10.65.73) 1.41ms
+[I 141112 22:06:50 web:1811] 200 GET /new/545c8704d8aadf51e38da3e0 (10.10.65.73) 10.85ms
+[I 141112 22:14:55 web:1811] 200 GET / (10.10.65.73) 27.70ms
+[I 141112 22:14:55 web:1811] 304 GET /static/css/style.css?v=508100dd9e83179b5f8e54d6345bacce (10.10.65.73) 1.46ms
+[I 141112 22:14:56 web:1811] 200 GET /static/img/bkimg.jpg?v=2cf2589c4408f9ca0bf57eda1ac4b319 (10.10.65.73) 32.97ms
+[I 141112 22:15:08 web:1811] 200 GET /new/545c87a8d8aadf51e38da3e1 (10.10.65.73) 11.10ms
+[W 141112 22:15:16 web:1811] 404 GET /www.post.heshui.la (10.10.65.73) 2.70ms
+[I 141112 22:16:00 web:1811] 200 GET / (10.10.65.73) 28.62ms
+[I 141112 22:16:00 web:1811] 304 GET /static/css/style.css?v=508100dd9e83179b5f8e54d6345bacce (10.10.65.73) 1.41ms
+[I 141112 22:16:00 web:1811] 304 GET /static/img/bkimg.jpg?v=2cf2589c4408f9ca0bf57eda1ac4b319 (10.10.65.73) 2.06ms
+[I 141112 22:16:22 web:1811] 200 GET / (10.10.65.73) 26.16ms
+[I 141112 22:16:22 web:1811] 304 GET /static/css/style.css?v=508100dd9e83179b5f8e54d6345bacce (10.10.65.73) 1.46ms
+[I 141112 22:16:22 web:1811] 304 GET /static/img/bkimg.jpg?v=2cf2589c4408f9ca0bf57eda1ac4b319 (10.10.65.73) 2.15ms
