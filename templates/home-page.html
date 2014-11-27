@@ -10,17 +10,19 @@
 	{% for i,j,k,l in postlist %}
       <div class="col-sm-6 col-md-4">
 	<a href="/new/{{ escape(str(l)) }}" class="post-item-wrap" title="最新文章" target="_blank" >
-          <div class="post-item">
+          <div class="post-item thumbnail">
+      <!--img src="../static/img/bkimg.jpg" alt="缩略图"-->
+      <img src="http://igudooimg.qiniudn.com/IMG_0839.jpg?imageView2/1/w/860/h/540/q/52" alt="缩略图">
             <div class="post-source light-green">
               <!--img class="img-responsive" src="http://gm0.lietou-static.com/user/pic_logo/big/1622/16210126.png?1415171902124"-->
-		<h6 class="loc-middle">原创</h6>
+		<h6 class="loc-middle">文艺范</h6>
             </div>
 		<div class="post-title">
 		<p><h4>{{ escape(i)}}</h4></p>
 		</div>
-		<div class="post-comments">
+		<!--div class="post-comments">
 		<p>{{ escape(j) }}</p>
-		</div>
+		</div-->
 		<div class="post-meta">
 		<p>{{ escape(str(k)[0:10]) }}</p>
 		</div>

@@ -5,15 +5,16 @@ border-bottom: 0px;
 float:left;
 }
 .footer {
-color: #777;
-padding: 30px 0;
+color: #000000;
+padding: 10px 0;
 border-top: 1px solid #e5e5e5;
-margin-top: 30px;
+//margin-top: 30px;
 }
 .navbar-top {
 background: rgba(0,0,0,.3);
-position: absolute;
+//position: absolute;
 border: none;
+border-radius: 0px;
 }
 .navbar-default .navbar-brand {
 color: #D3D3D3;
@@ -46,19 +47,19 @@ text-decoration: none;
 }
 .post-item {
 position: relative;
-padding: 30px;
+//padding: 30px;
 /*padding-top: 70px;*/
 padding-bottom: 20px;
 margin-bottom: 80px;
 border: 1px solid #5F0A3D;
-margin-left: 30px;
+//margin-left: 30px;
 }
 .post-item .post-source {
-width: 60px;
-border: 2px solid #1380A8;
+width: 50px;
+border: 1px solid #1380A8;
 position: absolute;
-top: -20px;
-margin-left: -60px;
+top: -15px;
+margin-left: -30px;
 background-color: #fff;
 background-size: cover;
 background-position: center center;
@@ -104,9 +105,10 @@ border-bottom: 1px solid #dddfeb;
 color: #777;
 padding-top: 10px;
 font-size: 12px;
+border-top: 1px solid #e5e5e5;
 }
 .postinfo {
-margin-top: 50px;
+margin-top: 20px;
 }
 @media (min-width: 1200px) {
   .container {
@@ -119,7 +121,8 @@ position: fixed;
 .post-view-enterprise {
 background: #f0f0f0;
 font-size: 12px;
-margin-top: 40px;
+margin-top: -20px;
+min-height: 620px;
 }
 .wrap .container {
 margin-right: auto;
@@ -132,22 +135,23 @@ float: left;
 .post-view-enterprise .main .postdetail {
 border: 1px solid #e6e6e6;
 background: #fff;
-margin: 30px 0 20px 0;
+margin: 20px 0 20px 0;
 }
 .post-view-enterprise .main .postdetail .title {
 //width: 665px;
-height: 90px;
-background-color: #3d9ccc;
+height: 52px;
+background-color: #125577;
 position: relative;
 left: -15px;
 top: 18px;
 padding-right: 10px;
 }
 .post-view-enterprise .main .postdetail .title h1 {
-font-size: 22px;
+font-size: 18px;
 padding-left: 36px;
 color: #fff;
 padding-top: 8px;
+padding-bottom: 4px;
 }
 .post-view-enterprise .main .postdetail .title h3 {
 font-size: 12px;
@@ -163,7 +167,7 @@ position: absolute;
 bottom: -7px;
 display: block;
 border-bottom: 8px solid transparent;
-border-right: 15px solid #156e9b;
+border-right: 15px solid #000000;
 }
 .post-main {
 padding: 10px 30px 0 20px;
