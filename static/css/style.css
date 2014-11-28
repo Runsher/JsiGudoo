@@ -1,6 +1,15 @@
 .page-header {
 border-bottom: 0px;
 }
+.carousel-zindex {
+z-index:-999;
+}
+.home-head {
+margin-top: -273px;
+}
+.newest-posts {
+margin-top: 60px;
+}
 .eee {
 float:left;
 }
