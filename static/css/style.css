@@ -19,7 +19,7 @@ width: 60px;
 border-radius: 0px;
 }
 .newest-posts {
-margin-top: 60px;
+margin-top: 20px;
 }
 .eee {
 float:left;
@@ -35,6 +35,12 @@ background: rgba(0,0,0,.3);
 //position: absolute;
 border: none;
 border-radius: 0px;
+}
+.navbar-top-m  {
+border: none;
+border-radius: 0px;
+background-color: #22363F;
+border-color: #24252C;
 }
 .navbar-default .navbar-brand {
 color: #D3D3D3;
