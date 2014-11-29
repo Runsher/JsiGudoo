@@ -51,6 +51,9 @@ background: rgba(16, 148, 138, 0.96);
 .navbar-default .navbar-text {
 color: #FFFDFD;
 }
+.media:first-child {
+ margin-top: 15px;
+}
 .subtitle {
 text-align: center;
 }
