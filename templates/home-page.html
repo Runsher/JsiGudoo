@@ -1,6 +1,6 @@
 <section class="newest-posts container">
   <div class="homepage-header">
-    <h3>最新文章</h3>
+    <h4>最新文章</h4>
   </div>
 </section>
 <section class="post-list visible-md visible-lg">
@@ -18,13 +18,13 @@
 		<h6 class="loc-middle">文艺范</h6>
             </div>
 		<div class="post-title">
-		<p><h4>{{ escape(i)}}</h4></p>
+		<p><h5>{{ escape(i)}}</h5></p>
 		</div>
 		<!--div class="post-comments">
 		<p>{{ escape(j) }}</p>
 		</div-->
 		<div class="post-meta">
-		<p>{{ escape(str(k)[0:10]) }}</p>
+		<p>{{ escape(str(k)[0:16]) }}</p>
 		</div>
           </div>
         </a>
@@ -38,13 +38,15 @@
 
         {% for i,j,k,l,m in postlist %}
 <section class="hidden-md hidden-lg">
-<div class="media">
+<div class="media post-m">
   <a class="pull-left" href="/new/{{ escape(str(l)) }}">
     <img class="media-object" src="{{ escape(m) }}?imageView2/1/w/172/h/108/q/88" alt="...">
   </a>
   <div class="media-body">
-    <h4 class="media-heading">{{ escape(i)}}</h4>
-	{{ escape(j) }}
+    <h5 class="media-heading">{{ escape(i)}}</h5>
+	<div class="post-meta">
+                <p>{{ escape(str(k)[0:16]) }}</p>
+        </div>
   </div>
 </div>
 {% end %}

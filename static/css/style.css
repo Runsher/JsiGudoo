@@ -16,6 +16,7 @@ font-family: cursive;
 }
 .carousel-zindex .carousel-indicators li {
 width: 60px;
+height:6px;
 border-radius: 0px;
 }
 .newest-posts {
@@ -26,6 +27,7 @@ float:left;
 }
 .footer {
 color: #000000;
+margin-top:16px;
 padding: 10px 0;
 border-top: 1px solid #e5e5e5;
 //margin-top: 30px;
@@ -47,6 +49,9 @@ color: #D3D3D3;
 }
 .navbar-post {
 background: rgba(16, 148, 138, 0.96);
+}
+.navbar-post .navbar-nav > li > a {
+color: #E7E2E2;
 }
 .navbar-default .navbar-text {
 color: #FFFDFD;
@@ -136,8 +141,22 @@ padding-top: 10px;
 font-size: 12px;
 border-top: 1px solid #e5e5e5;
 }
+.post-item .post-meta P {
+margin: 0 20px 0 20px;
+}
+.post-m .post-meta p {
+color: #777;
+font-size: 12px;
+}
 .postinfo {
 margin-top: 20px;
+}
+.postinfo .tag{
+
+color: #777;
+padding-top: 10px;
+font-size: 12px;
+border-top: 1px solid #e5e5e5;
 }
 @media (min-width: 1200px) {
   .container {
