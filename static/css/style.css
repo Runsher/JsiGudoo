@@ -4,6 +4,20 @@ border-bottom: 0px;
 .home-head {
 margin-top: -273px;
 }
+.carousel-zindex {
+
+}
+.carousel-zindex p {
+font-family: cursive;
+font-size: 18px;
+}
+.carousel-zindex h1 {
+font-family: cursive;
+}
+.carousel-zindex .carousel-indicators li {
+width: 60px;
+border-radius: 0px;
+}
 .newest-posts {
 margin-top: 60px;
 }
