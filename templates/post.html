@@ -6,15 +6,15 @@
 <div class="main col-md-9">
 <div class="postdetail">
 <div class="title">
-<h4 id="wp_title">{{ postinfolist[0] }}</h4>
+<h4 class="wp_title" id="wp_title">{{ postinfolist[0] }}</h4>
 <blockquote class="tag">
-<h6>{{ str(postinfolist[1])[0:10] }} 作者:CrazyCrab</h6>
+<p><span style="color: rgb(255, 255, 255); background-color: rgb(66, 66, 66); font-size: 13px;">{{ str(postinfolist[1])[0:19] }} &nbsp; &nbsp; 作者:CrazyCrab</span></p>
 </blockquote>
 </div>
 <h5>{% raw postinfolist[2] %}</h5>
 </div>
 </div>
-<div class="well hidden-xs hidden-sm side col-md-3">
+<div class="hidden-xs hidden-sm side col-md-3">
 {% include "layout/post-side.html" %}
 </div>
     </div>
