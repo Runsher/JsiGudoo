@@ -6,12 +6,12 @@
 <div class="main col-md-9">
 <div class="postdetail">
 <div class="title">
-<h4 class="wp_title" id="wp_title">{{ postinfolist[0] }}</h4>
+<h4 class="wp_title" id="wp_title">{{ postinfo['title'] }}</h4>
 <blockquote class="tag">
-<p><span style="color: rgb(255, 255, 255); background-color: rgb(66, 66, 66); font-size: 13px;">{{ str(postinfolist[1])[0:19] }} &nbsp; &nbsp; 作者:CrazyCrab</span></p>
+<p><span style="color: rgb(255, 255, 255); background-color: rgb(66, 66, 66); font-size: 13px;">{{ str(postinfo['createDate'])[0:19] }} &nbsp; &nbsp; 作者:{{ postinfo['writer'] }}</span></p>
 </blockquote>
 </div>
-<h5>{% raw postinfolist[2] %}</h5>
+<h5>{% raw postinfo['sHTML'] %}</h5>
 </div>
 </div>
 <div class="hidden-xs hidden-sm side col-md-3">
@@ -22,7 +22,7 @@
 </body>
 {% include "layout/footer.html" %}
 <script>
-  	var imgUrl = "{{ postinfolist[3] }}";
+  	var imgUrl = "{{ postinfo['imgurl'] }}";
 	//var lineLink = "网址";
 	var lineLink =  document.location.href;
 	//var descContent = '爱在五月，\n\n妈咪爱1+1亲子健康之旅开启全国行首站----重庆站妈咪爱活性益生菌';

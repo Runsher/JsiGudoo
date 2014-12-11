@@ -7,24 +7,24 @@
   <div class="container">
     <div class="row">
 
-	{% for i,j,k,l,m in postlist %}
+	{% for i in postlist %}
       <div class="col-sm-6 col-md-4">
-	<a href="/new/{{ escape(str(l)) }}" class="post-item-wrap" title="最新文章" target="_blank" >
+	<a href="/new/{{ escape(str(i['_id'])) }}" class="post-item-wrap" title="最新文章" target="_blank" >
           <div class="post-item thumbnail">
       <!--img src="../static/img/bkimg.jpg" alt="缩略图"-->
-      <img src="{{ escape(m) }}?imageView2/1/w/287/h/179/q/88" alt="缩略图">
+      <img src="{{ escape(i['imgurl']) }}?imageView2/1/w/287/h/179/q/88" alt="缩略图">
             <div class="post-source light-green">
               <!--img class="img-responsive" src="http://gm0.lietou-static.com/user/pic_logo/big/1622/16210126.png?1415171902124"-->
-		<h6 class="loc-middle">文艺范</h6>
+		<h6 class="loc-middle">{{ i['posttag'] }}</h6>
             </div>
 		<div class="post-title">
-		<p><h5>{{ escape(i)}}</h5></p>
+		<p><h5>{{ escape(i['title'])}}</h5></p>
 		</div>
 		<!--div class="post-comments">
-		<p>{{ escape(j) }}</p>
+		<p>{{ escape(i['shortcut']) }}</p>
 		</div-->
 		<div class="post-meta">
-		<p>{{ escape(str(k)[0:19]) }}</p>
+		<p>{{ escape(str(i['createDate'])[0:19]) }}  &nbsp; &nbsp; 作者:{{ i['writer'] }}</p>
 		</div>
           </div>
         </a>

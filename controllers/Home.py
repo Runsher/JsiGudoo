@@ -33,11 +33,11 @@ class IndexHandler(BaseHandler):
 		conn = dbconn.getConn()
 		global posts
 		posts = conn.igudoo.posts
-		postslistdic = posts.find().sort("createDate",-1).limit(10) 
-		postlist = []
-		for post in postslistdic:
-			postinfo = [post["title"],post["shortcut"],post["createDate"],post["_id"],post["imgurl"]]
-			postlist.append(postinfo)
+		postlist = posts.find({'status':1}).sort("createDate",-1).limit(10) 
+		#postlist = []
+		#for post in postslistdic:
+		#	postinfo = [post["title"],post["shortcut"],post["createDate"],post["_id"],post["imgurl"]]
+		#	postlist.append(postinfo)
 		self.render('index.html',postlist=postlist)
 
 
@@ -56,8 +56,8 @@ class TopHandler(BaseHandler):
 class NewHandler(BaseHandler):
         def get(self,postid):
 		postinfo = posts.find_one({"_id":ObjectId(postid)})
-		postinfolist = [postinfo["title"],postinfo["createDate"],postinfo["postinfo"],postinfo["imgurl"]]
-		self.render("post.html",postinfolist=postinfolist)
+		#postinfolist = [postinfo["title"],postinfo["createDate"],postinfo["postinfo"],postinfo["imgurl"]]
+		self.render("post.html",postinfo=postinfo)
                 #reInfo = MysqlQuery().query_select('SELECT title,content,url,imgUrl FROM Articles.topArticle where url="%s"' %(articleId))
                 #self.render('top.html')
                 #self.render('top.html',topid=articleId,info=reInfo)

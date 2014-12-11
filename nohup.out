@@ -10102,3 +10102,168 @@ SyntaxError: invalid syntax
 [I 141129 23:47:59 web:1811] 200 GET /static/css/style.css?v=e31fae6561bda96a84fa94a92dce4db8 (10.10.65.73) 1.97ms
 [I 141129 23:48:48 web:1811] 200 GET /new/5479ccd8d8aadf701a2592c1 (10.10.65.73) 11.75ms
 [I 141129 23:48:48 web:1811] 200 GET /static/css/style.css?v=18bed5b79b493d26048ff65a7c268560 (10.10.65.73) 1.69ms
+[I 141209 14:41:25 web:1811] 200 GET / (10.10.65.73) 39.45ms
+[W 141209 14:41:25 web:1811] 404 GET /ce?imageView2/1/w/287/h/179/q/88 (10.10.65.73) 2.78ms
+[W 141209 14:41:25 web:1811] 404 GET /ce?imageView2/1/w/172/h/108/q/88 (10.10.65.73) 0.89ms
+[I 141211 10:51:04 web:1811] 200 GET / (10.10.65.73) 37.49ms
+[W 141211 10:51:04 web:1811] 404 GET /a?imageView2/1/w/287/h/179/q/88 (10.10.65.73) 2.42ms
+[W 141211 10:51:04 web:1811] 404 GET /b?imageView2/1/w/172/h/108/q/88 (10.10.65.73) 0.96ms
+[W 141211 10:51:04 web:1811] 404 GET /b?imageView2/1/w/287/h/179/q/88 (10.10.65.73) 0.89ms
+[W 141211 10:51:04 web:1811] 404 GET /a?imageView2/1/w/172/h/108/q/88 (10.10.65.73) 0.83ms
+[I 141211 10:51:15 web:1811] 304 GET / (10.10.65.73) 39.13ms
+[I 141211 10:51:15 web:1811] 304 GET /static/css/style.css?v=18bed5b79b493d26048ff65a7c268560 (10.10.65.73) 1.47ms
+[W 141211 10:51:15 web:1811] 404 GET /b?imageView2/1/w/287/h/179/q/88 (10.10.65.73) 2.47ms
+[W 141211 10:51:15 web:1811] 404 GET /a?imageView2/1/w/287/h/179/q/88 (10.10.65.73) 0.84ms
+[W 141211 10:51:15 web:1811] 404 GET /a?imageView2/1/w/172/h/108/q/88 (10.10.65.73) 0.83ms
+[W 141211 10:51:15 web:1811] 404 GET /b?imageView2/1/w/172/h/108/q/88 (10.10.65.73) 0.82ms
+[I 141211 10:52:55 autoreload:191] /ROOT/server/JsiGudoo/controllers/Home.py modified; restarting server
+[I 141211 10:53:01 web:1811] 200 GET / (10.10.65.73) 53.29ms
+[W 141211 10:53:01 web:1811] 404 GET /ec?imageView2/1/w/287/h/179/q/88 (10.10.65.73) 2.85ms
+[W 141211 10:53:01 web:1811] 404 GET /ec?imageView2/1/w/172/h/108/q/88 (10.10.65.73) 0.81ms
+[W 141211 10:53:01 web:1811] 404 GET /b?imageView2/1/w/287/h/179/q/88 (10.10.65.73) 1.02ms
+[W 141211 10:53:01 web:1811] 404 GET /a?imageView2/1/w/287/h/179/q/88 (10.10.65.73) 0.78ms
+[W 141211 10:53:01 web:1811] 404 GET /b?imageView2/1/w/172/h/108/q/88 (10.10.65.73) 0.81ms
+[W 141211 10:53:01 web:1811] 404 GET /a?imageView2/1/w/172/h/108/q/88 (10.10.65.73) 0.81ms
+[I 141211 10:53:03 web:1811] 304 GET / (10.10.65.73) 35.54ms
+[I 141211 10:53:03 web:1811] 304 GET /static/css/style.css?v=18bed5b79b493d26048ff65a7c268560 (10.10.65.73) 3.46ms
+[W 141211 10:53:03 web:1811] 404 GET /b?imageView2/1/w/287/h/179/q/88 (10.10.65.73) 2.38ms
+[W 141211 10:53:03 web:1811] 404 GET /ec?imageView2/1/w/287/h/179/q/88 (10.10.65.73) 0.91ms
+[W 141211 10:53:03 web:1811] 404 GET /a?imageView2/1/w/172/h/108/q/88 (10.10.65.73) 0.92ms
+[W 141211 10:53:03 web:1811] 404 GET /b?imageView2/1/w/172/h/108/q/88 (10.10.65.73) 0.85ms
+[W 141211 10:53:03 web:1811] 404 GET /ec?imageView2/1/w/172/h/108/q/88 (10.10.65.73) 0.77ms
+[W 141211 10:53:03 web:1811] 404 GET /a?imageView2/1/w/287/h/179/q/88 (10.10.65.73) 0.86ms
+[I 141211 10:53:04 web:1811] 304 GET / (10.10.65.73) 34.51ms
+[I 141211 10:53:04 web:1811] 304 GET /static/css/style.css?v=18bed5b79b493d26048ff65a7c268560 (10.10.65.73) 1.40ms
+[W 141211 10:53:05 web:1811] 404 GET /ec?imageView2/1/w/172/h/108/q/88 (10.10.65.73) 2.43ms
+[W 141211 10:53:05 web:1811] 404 GET /a?imageView2/1/w/287/h/179/q/88 (10.10.65.73) 0.90ms
+[W 141211 10:53:05 web:1811] 404 GET /b?imageView2/1/w/287/h/179/q/88 (10.10.65.73) 0.89ms
+[W 141211 10:53:05 web:1811] 404 GET /ec?imageView2/1/w/287/h/179/q/88 (10.10.65.73) 0.78ms
+[W 141211 10:53:05 web:1811] 404 GET /a?imageView2/1/w/172/h/108/q/88 (10.10.65.73) 0.86ms
+[W 141211 10:53:05 web:1811] 404 GET /b?imageView2/1/w/172/h/108/q/88 (10.10.65.73) 0.82ms
+[I 141211 10:53:05 web:1811] 304 GET / (10.10.65.73) 36.27ms
+[I 141211 10:53:05 web:1811] 304 GET /static/css/style.css?v=18bed5b79b493d26048ff65a7c268560 (10.10.65.73) 1.67ms
+[W 141211 10:53:06 web:1811] 404 GET /ec?imageView2/1/w/287/h/179/q/88 (10.10.65.73) 2.63ms
+[W 141211 10:53:06 web:1811] 404 GET /a?imageView2/1/w/172/h/108/q/88 (10.10.65.73) 0.85ms
+[W 141211 10:53:06 web:1811] 404 GET /b?imageView2/1/w/172/h/108/q/88 (10.10.65.73) 0.89ms
+[W 141211 10:53:06 web:1811] 404 GET /ec?imageView2/1/w/172/h/108/q/88 (10.10.65.73) 0.78ms
+[W 141211 10:53:06 web:1811] 404 GET /a?imageView2/1/w/287/h/179/q/88 (10.10.65.73) 0.82ms
+[W 141211 10:53:06 web:1811] 404 GET /b?imageView2/1/w/287/h/179/q/88 (10.10.65.73) 0.86ms
+[I 141211 10:53:06 web:1811] 304 GET / (10.10.65.73) 36.33ms
+[I 141211 10:53:06 web:1811] 304 GET /static/css/style.css?v=18bed5b79b493d26048ff65a7c268560 (10.10.65.73) 1.41ms
+[W 141211 10:53:06 web:1811] 404 GET /ec?imageView2/1/w/287/h/179/q/88 (10.10.65.73) 2.51ms
+[W 141211 10:53:06 web:1811] 404 GET /a?imageView2/1/w/172/h/108/q/88 (10.10.65.73) 0.83ms
+[W 141211 10:53:06 web:1811] 404 GET /b?imageView2/1/w/172/h/108/q/88 (10.10.65.73) 0.91ms
+[W 141211 10:53:06 web:1811] 404 GET /ec?imageView2/1/w/172/h/108/q/88 (10.10.65.73) 0.83ms
+[W 141211 10:53:06 web:1811] 404 GET /a?imageView2/1/w/287/h/179/q/88 (10.10.65.73) 0.83ms
+[W 141211 10:53:06 web:1811] 404 GET /b?imageView2/1/w/287/h/179/q/88 (10.10.65.73) 0.88ms
+[I 141211 10:53:07 web:1811] 304 GET / (10.10.65.73) 34.47ms
+[I 141211 10:53:07 web:1811] 304 GET /static/css/style.css?v=18bed5b79b493d26048ff65a7c268560 (10.10.65.73) 1.43ms
+[W 141211 10:53:07 web:1811] 404 GET /a?imageView2/1/w/287/h/179/q/88 (10.10.65.73) 2.49ms
+[W 141211 10:53:07 web:1811] 404 GET /b?imageView2/1/w/287/h/179/q/88 (10.10.65.73) 0.97ms
+[W 141211 10:53:07 web:1811] 404 GET /ec?imageView2/1/w/287/h/179/q/88 (10.10.65.73) 0.79ms
+[W 141211 10:53:07 web:1811] 404 GET /a?imageView2/1/w/172/h/108/q/88 (10.10.65.73) 0.86ms
+[W 141211 10:53:07 web:1811] 404 GET /b?imageView2/1/w/172/h/108/q/88 (10.10.65.73) 0.97ms
+[W 141211 10:53:07 web:1811] 404 GET /ec?imageView2/1/w/172/h/108/q/88 (10.10.65.73) 0.82ms
+[I 141211 10:53:08 web:1811] 304 GET / (10.10.65.73) 35.60ms
+[I 141211 10:53:08 web:1811] 304 GET /static/css/style.css?v=18bed5b79b493d26048ff65a7c268560 (10.10.65.73) 1.44ms
+[W 141211 10:53:08 web:1811] 404 GET /ec?imageView2/1/w/287/h/179/q/88 (10.10.65.73) 2.62ms
+[W 141211 10:53:08 web:1811] 404 GET /a?imageView2/1/w/172/h/108/q/88 (10.10.65.73) 0.83ms
+[W 141211 10:53:08 web:1811] 404 GET /b?imageView2/1/w/172/h/108/q/88 (10.10.65.73) 0.89ms
+[W 141211 10:53:08 web:1811] 404 GET /ec?imageView2/1/w/172/h/108/q/88 (10.10.65.73) 0.81ms
+[W 141211 10:53:08 web:1811] 404 GET /a?imageView2/1/w/287/h/179/q/88 (10.10.65.73) 0.86ms
+[W 141211 10:53:08 web:1811] 404 GET /b?imageView2/1/w/287/h/179/q/88 (10.10.65.73) 0.98ms
+[I 141211 10:53:44 web:1811] 200 GET / (10.10.65.73) 36.46ms
+[I 141211 10:53:45 web:1811] 304 GET /static/css/style.css?v=18bed5b79b493d26048ff65a7c268560 (10.10.65.73) 1.55ms
+[W 141211 10:53:45 web:1811] 404 GET /%E5%93%88%E5%93%88?imageView2/1/w/287/h/179/q/88 (10.10.65.73) 2.39ms
+[W 141211 10:53:45 web:1811] 404 GET /a?imageView2/1/w/172/h/108/q/88 (10.10.65.73) 0.83ms
+[W 141211 10:53:45 web:1811] 404 GET /b?imageView2/1/w/172/h/108/q/88 (10.10.65.73) 0.94ms
+[W 141211 10:53:45 web:1811] 404 GET /a?imageView2/1/w/287/h/179/q/88 (10.10.65.73) 0.81ms
+[W 141211 10:53:45 web:1811] 404 GET /b?imageView2/1/w/287/h/179/q/88 (10.10.65.73) 0.86ms
+[W 141211 10:53:45 web:1811] 404 GET /%E5%93%88%E5%93%88?imageView2/1/w/172/h/108/q/88 (10.10.65.73) 1.81ms
+[I 141211 10:54:09 web:1811] 200 GET / (10.10.65.73) 34.52ms
+[I 141211 10:54:09 web:1811] 304 GET /static/css/style.css?v=18bed5b79b493d26048ff65a7c268560 (10.10.65.73) 1.82ms
+[W 141211 10:54:10 web:1811] 404 GET /%E5%93%88%E5%93%88?imageView2/1/w/287/h/179/q/88 (10.10.65.73) 2.59ms
+[W 141211 10:54:10 web:1811] 404 GET /b?imageView2/1/w/172/h/108/q/88 (10.10.65.73) 0.85ms
+[W 141211 10:54:10 web:1811] 404 GET /%E5%93%88%E5%93%88?imageView2/1/w/172/h/108/q/88 (10.10.65.73) 1.05ms
+[W 141211 10:54:10 web:1811] 404 GET /b?imageView2/1/w/287/h/179/q/88 (10.10.65.73) 0.93ms
+[I 141211 10:55:02 autoreload:191] /ROOT/server/JsiGudoo/controllers/Home.py modified; restarting server
+[E 141211 10:59:46 web:1407] Uncaught exception GET / (10.10.65.73)
+    HTTPServerRequest(protocol='http', host='10.10.65.68:8825', method='GET', uri='/', version='HTTP/1.1', remote_ip='10.10.65.73', headers={'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, sdch', 'Host': '10.10.65.68:8825', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.65 Safari/537.36', 'Connection': 'keep-alive', 'Cookie': 'bdshare_firstime=1416982564383; user="2|1:0|10:1417016769|4:user|8:YWRtaW4=|1e98f0fec863e3cc98552ed91beef7327f0919bce62eb01d1f9385d5e34a574c"', 'Cache-Control': 'max-age=0', 'If-None-Match': '"f3fc70f9e2c70e1b1317beb947e3521246f5ddae"'})
+    Traceback (most recent call last):
+      File "/usr/lib64/python2.6/site-packages/tornado/web.py", line 1332, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/ROOT/server/JsiGudoo/controllers/Home.py", line 41, in get
+        self.render('index.html',postlist=postlist)
+    NameError: global name 'postlist' is not defined
+[E 141211 10:59:46 web:1811] 500 GET / (10.10.65.73) 9.81ms
+[I 141211 11:01:00 autoreload:191] /ROOT/server/JsiGudoo/controllers/Home.py modified; restarting server
+[E 141211 11:01:01 web:1407] Uncaught exception GET / (10.10.65.73)
+    HTTPServerRequest(protocol='http', host='10.10.65.68:8825', method='GET', uri='/', version='HTTP/1.1', remote_ip='10.10.65.73', headers={'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, sdch', 'Host': '10.10.65.68:8825', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.65 Safari/537.36', 'Connection': 'keep-alive', 'Cookie': 'bdshare_firstime=1416982564383; user="2|1:0|10:1417016769|4:user|8:YWRtaW4=|1e98f0fec863e3cc98552ed91beef7327f0919bce62eb01d1f9385d5e34a574c"', 'Cache-Control': 'max-age=0'})
+    Traceback (most recent call last):
+      File "/usr/lib64/python2.6/site-packages/tornado/web.py", line 1332, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/ROOT/server/JsiGudoo/controllers/Home.py", line 41, in get
+        self.render('index.html',postlist=postlist)
+      File "/usr/lib64/python2.6/site-packages/tornado/web.py", line 665, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib64/python2.6/site-packages/tornado/web.py", line 772, in render_string
+        return t.generate(**namespace)
+      File "/usr/lib64/python2.6/site-packages/tornado/template.py", line 278, in generate
+        return execute()
+      File "index_html.generated.py", line 45, in _tt_execute
+        _tt_tmp = escape(j)  # home-page.html:24 (via main.html:5)
+    UnboundLocalError: local variable 'j' referenced before assignment
+[E 141211 11:01:01 web:1811] 500 GET / (10.10.65.73) 57.93ms
+[I 141211 11:02:12 web:1811] 200 GET / (10.10.65.73) 41.25ms
+[I 141211 11:02:12 web:1811] 304 GET /static/css/style.css?v=18bed5b79b493d26048ff65a7c268560 (10.10.65.73) 3.14ms
+[W 141211 11:02:12 web:1811] 404 GET /%E5%93%88%E5%93%88?imageView2/1/w/287/h/179/q/88 (10.10.65.73) 2.38ms
+[W 141211 11:02:12 web:1811] 404 GET /b?imageView2/1/w/287/h/179/q/88 (10.10.65.73) 0.88ms
+[I 141211 11:04:10 web:1811] 200 GET / (10.10.65.73) 40.38ms
+[I 141211 11:04:10 web:1811] 304 GET /static/css/style.css?v=18bed5b79b493d26048ff65a7c268560 (10.10.65.73) 1.75ms
+[W 141211 11:04:10 web:1811] 404 GET /%E5%93%88%E5%93%88?imageView2/1/w/287/h/179/q/88 (10.10.65.73) 2.61ms
+[W 141211 11:04:10 web:1811] 404 GET /b?imageView2/1/w/287/h/179/q/88 (10.10.65.73) 0.84ms
+[E 141211 11:04:52 web:1407] Uncaught exception GET /new/54890571d8aadf3fb69df4a5 (10.10.65.73)
+    HTTPServerRequest(protocol='http', host='10.10.65.68:8825', method='GET', uri='/new/54890571d8aadf3fb69df4a5', version='HTTP/1.1', remote_ip='10.10.65.73', headers={'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, sdch', 'Host': '10.10.65.68:8825', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.65 Safari/537.36', 'Connection': 'keep-alive', 'Referer': 'http://10.10.65.68:8825/', 'Cookie': 'bdshare_firstime=1416982564383; user="2|1:0|10:1417016769|4:user|8:YWRtaW4=|1e98f0fec863e3cc98552ed91beef7327f0919bce62eb01d1f9385d5e34a574c"'})
+    Traceback (most recent call last):
+      File "/usr/lib64/python2.6/site-packages/tornado/web.py", line 1332, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/ROOT/server/JsiGudoo/controllers/Home.py", line 59, in get
+        postinfolist = [postinfo["title"],postinfo["createDate"],postinfo["postinfo"],postinfo["imgurl"]]
+    KeyError: 'postinfo'
+[E 141211 11:04:52 web:1811] 500 GET /new/54890571d8aadf3fb69df4a5 (10.10.65.73) 3.99ms
+[I 141211 11:05:36 autoreload:191] /ROOT/server/JsiGudoo/controllers/Home.py modified; restarting server
+[I 141211 11:06:54 web:1811] 304 GET / (10.10.65.73) 52.60ms
+[I 141211 11:06:54 web:1811] 304 GET /static/css/style.css?v=18bed5b79b493d26048ff65a7c268560 (10.10.65.73) 3.23ms
+[W 141211 11:06:54 web:1811] 404 GET /b?imageView2/1/w/287/h/179/q/88 (10.10.65.73) 2.57ms
+[W 141211 11:06:54 web:1811] 404 GET /%E5%93%88%E5%93%88?imageView2/1/w/287/h/179/q/88 (10.10.65.73) 0.81ms
+[I 141211 11:06:55 web:1811] 200 GET /new/54890571d8aadf3fb69df4a5 (10.10.65.73) 13.39ms
+[I 141211 11:10:31 web:1811] 200 GET /new/54890571d8aadf3fb69df4a5 (10.10.65.73) 12.40ms
+[I 141211 11:10:31 web:1811] 304 GET /static/css/style.css?v=18bed5b79b493d26048ff65a7c268560 (10.10.65.73) 1.44ms
+[I 141211 11:10:43 web:1811] 200 GET /new/548906dad8aadf5c259597d4 (10.10.65.73) 14.05ms
+[I 141211 11:11:19 web:1811] 304 GET /new/548906dad8aadf5c259597d4 (10.10.65.73) 11.82ms
+[I 141211 11:11:25 web:1811] 304 GET /new/54890571d8aadf3fb69df4a5 (10.10.65.73) 11.83ms
+[I 141211 11:11:29 web:1811] 304 GET /new/548906dad8aadf5c259597d4 (10.10.65.73) 11.88ms
+[I 141211 11:11:32 web:1811] 304 GET /new/54890571d8aadf3fb69df4a5 (10.10.65.73) 12.30ms
+[I 141211 11:11:35 web:1811] 304 GET /new/54890571d8aadf3fb69df4a5 (10.10.65.73) 12.28ms
+[E 141211 11:12:55 web:1407] Uncaught exception GET / (10.10.65.73)
+    HTTPServerRequest(protocol='http', host='10.10.65.68:8825', method='GET', uri='/', version='HTTP/1.1', remote_ip='10.10.65.73', headers={'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, sdch', 'Host': '10.10.65.68:8825', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.65 Safari/537.36', 'Connection': 'keep-alive', 'Cookie': 'bdshare_firstime=1416982564383; user="2|1:0|10:1417016769|4:user|8:YWRtaW4=|1e98f0fec863e3cc98552ed91beef7327f0919bce62eb01d1f9385d5e34a574c"', 'Cache-Control': 'max-age=0', 'If-None-Match': '"366afd48004b567085531bd8460d120b46412fe9"'})
+    Traceback (most recent call last):
+      File "/usr/lib64/python2.6/site-packages/tornado/web.py", line 1332, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/ROOT/server/JsiGudoo/controllers/Home.py", line 41, in get
+        self.render('index.html',postlist=postlist)
+      File "/usr/lib64/python2.6/site-packages/tornado/web.py", line 665, in render
+        html = self.render_string(template_name, **kwargs)
+      File "/usr/lib64/python2.6/site-packages/tornado/web.py", line 772, in render_string
+        return t.generate(**namespace)
+      File "/usr/lib64/python2.6/site-packages/tornado/template.py", line 278, in generate
+        return execute()
+      File "index_html.generated.py", line 63, in _tt_execute
+        _tt_tmp = postinfo['writer']  # home-page.html:27 (via main.html:5)
+    NameError: global name 'postinfo' is not defined
+[E 141211 11:12:55 web:1811] 500 GET / (10.10.65.73) 40.30ms
+[I 141211 11:13:14 web:1811] 200 GET / (10.10.65.73) 38.23ms
+[I 141211 11:13:14 web:1811] 304 GET /static/css/style.css?v=18bed5b79b493d26048ff65a7c268560 (10.10.65.73) 1.79ms
+[W 141211 11:13:14 web:1811] 404 GET /%E5%93%88%E5%93%88?imageView2/1/w/287/h/179/q/88 (10.10.65.73) 2.37ms
+[W 141211 11:13:14 web:1811] 404 GET /b?imageView2/1/w/287/h/179/q/88 (10.10.65.73) 0.85ms
+[I 141211 11:13:16 web:1811] 304 GET /new/548906dad8aadf5c259597d4 (10.10.65.73) 12.77ms
